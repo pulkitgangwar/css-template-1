@@ -1,0 +1,14 @@
+.detail-container{
+    max-width:98rem;
+    margin:5rem auto 0;
+
+    &__image{
+        width:100%; 
+        margin-bottom:5rem;
+        border-radius: 5px;
+    }
+
+    &__paragraph{
+        line-height: 3rem;
+    }
+}

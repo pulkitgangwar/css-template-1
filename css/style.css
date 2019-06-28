@@ -1,0 +1,192 @@
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+  @media (max-width: 75em) {
+    html {
+      font-size: 55%; } }
+  @media (max-width: 56.25em) {
+    html {
+      font-size: 45%; } }
+  @media (max-width: 37.5em) {
+    html {
+      font-size: 35%; } }
+  @media (min-width: 112.5em) {
+    html {
+      font-size: 100%; } }
+
+body {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 400; }
+
+.heading-primary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center; }
+  .heading-primary__main {
+    text-transform: capitalize;
+    display: block;
+    font-size: 7.5rem;
+    font-weight: 100; }
+    @media (max-width: 37.5em) {
+      .heading-primary__main {
+        font-size: 3rem; } }
+  .heading-primary__sub {
+    display: block;
+    font-weight: 100;
+    letter-spacing: 0.5rem; }
+    @media (max-width: 37.5em) {
+      .heading-primary__sub {
+        font-size: 2rem;
+        letter-spacing: 0.2rem; } }
+  .heading-primary__three {
+    display: block;
+    font-weight: 100;
+    letter-spacing: 0.5rem; }
+    @media (max-width: 37.5em) {
+      .heading-primary__three {
+        font-size: 2rem; } }
+
+.heading-secondary {
+  font-size: 4rem;
+  text-align: center;
+  font-weight: 400;
+  text-transform: capitalize; }
+
+.heading-tertiary {
+  text-align: center; }
+  .heading-tertiary__main {
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+    font-weight: 100;
+    letter-spacing: 0.5rem; }
+  .heading-tertiary__sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 100;
+    text-transform: capitalize;
+    letter-spacing: 0.5rem; }
+
+.u-margin-bottom-small {
+  margin-bottom: 2rem; }
+
+.u-margin-bottom-medium {
+  margin-bottom: 4rem; }
+
+.u-margin-bottom-big {
+  margin-bottom: 6rem; }
+
+.u-margin-bottom-huge {
+  margin-bottom: 8rem; }
+
+.u-margin-top-small {
+  margin-top: 2rem; }
+
+.u-margin-top-medium {
+  margin-top: 4rem; }
+
+.u-margin-top-big {
+  margin-top: 6rem; }
+
+.u-margin-top-huge {
+  margin-top: 8rem; }
+
+.u-padding-top-medium {
+  padding-top: 4rem; }
+
+.u-padding-bottom-medium {
+  padding-bottom: 4rem; }
+
+.u-padding-bottom-big {
+  padding-bottom: 8rem; }
+
+.u-text-align-center {
+  text-align: center; }
+
+.btn:link, .btn:visited {
+  padding: 2.5rem 5rem;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  font-weight: 100;
+  text-transform: capitalize;
+  letter-spacing: 0.2rem; }
+
+.btn:hover {
+  background-color: #ccc;
+  color: black; }
+
+.btn--black {
+  background-color: black; }
+
+.btn--pink {
+  background-color: #f44336; }
+
+.detail-container {
+  max-width: 98rem;
+  margin: 5rem auto 0; }
+  .detail-container__image {
+    width: 100%;
+    margin-bottom: 5rem;
+    border-radius: 5px; }
+  .detail-container__paragraph {
+    line-height: 3rem; }
+
+.footer {
+  background-color: black;
+  width: 100%;
+  padding: 5rem 0;
+  text-align: center;
+  text-transform: capitalize; }
+  .footer__paragraph {
+    color: #fff;
+    font-size: 2rem; }
+  .footer__link {
+    color: #fff; }
+    .footer__link:hover {
+      color: #ffdddd; }
+
+.header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("/Images/heroimage.jpg");
+  background-position: center center;
+  background-size: cover;
+  position: relative; }
+
+.section-about {
+  width: 100%;
+  background-color: #ffdddd; }
+
+.section-info {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/Images/flowers.jpg");
+  background-position: center center;
+  background-size: cover; }
+  @media (max-width: 37.5em) {
+    .section-info {
+      background-position: left; } }
+
+.section-wedding {
+  width: 100%;
+  background-color: #ffdddd; }
+
+.section-contact {
+  background-color: #ffdddd;
+  width: 100%;
+  height: 40vh; }

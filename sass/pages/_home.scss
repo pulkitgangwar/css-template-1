@@ -1,0 +1,29 @@
+.section-about {
+  width: 100%;
+
+  background-color: $background-color-pink;
+}
+
+.section-info {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background-image: url("/Images/flowers.jpg");
+  background-position: center center;
+  background-size: cover;
+
+  @include respond(phone) {
+    background-position: left;
+  }
+}
+
+.section-wedding {
+  width: 100%;
+  background-color: $background-color-pink;
+}
+
+.section-contact {
+  background-color: $background-color-pink;
+  width: 100%;
+  height: 40vh;
+}
